@@ -111,7 +111,7 @@ def loop(i:int, f):
     while 1:
         logging.info("开始启动")
         f()
-        logging.info(f"休眠{i}秒，请等待...")
+         logging.info(f"休眠{i}秒，请等待...")
         time.sleep(i)
        
 
